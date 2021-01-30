@@ -11,8 +11,12 @@ body {
     align-items: center;
 }
 
+.header__title {
+    font-size: 32px;
+}
+
 .game {
-    min-width: 300px;
+    width: 300px;
     border: 1px solid #ddd;
     box-shadow: 2px 2px 3px 2px #ccc;
     margin: 0 16px;
