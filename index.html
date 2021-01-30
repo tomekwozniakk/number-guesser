@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guesser</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Number Guesser</h1>
+    </header>
+    <main class="game">
+        <p class="game__description">Guess a number between <span class="min-num"></span> and <span class="max-num"></span>.</p>
+        <form class="game__form">
+            <p class="game__form-guess">
+                <label for="guess">Guess:</label>
+                <input class="game__form-input" id="guess" type="number" placeholder="Type your guess...">
+            </p>
+            <p class="game__form-submit">
+                <input class="game__form-button" type="submit" value="Submit">
+            </p>
+        </form>
+        <p class="game__message"></p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
